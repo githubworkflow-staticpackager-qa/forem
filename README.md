@@ -26,7 +26,7 @@ build out Forem’s usability, scalability, and stability to better serve our
 communities.
            
 ## What is Forem?    
-
+               
 Forem is open source software for building communities. Communities for your
 peers, customers, fanbases, families, friends, and any other time and space
 where people need to come together to be part of a collective.
