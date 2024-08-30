@@ -53,7 +53,7 @@ within our community. ❤️
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
-## Community
+## Community   
 
 For a place to have open discussions on features, voice your ideas, or get help
 with general questions please visit the
