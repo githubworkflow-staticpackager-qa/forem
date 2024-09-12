@@ -1,7 +1,7 @@
 actions:
   ruby:
     version: 3.3.0
-    bundle: 2.5.7
+    bundle: 2.5.17
   veracode_static_scan:
     build:
       runs_on:
