@@ -6,8 +6,23 @@ actions:
     build:
       runs_on:
       packager_image: veracode/scm-packaging:3.0.0
-      #predependency_command: |
-        
+      predependency_command: |
+        apt update && \
+        apt install -y \
+        build-essential \
+        libcurl4-openssl-dev \
+        libffi-dev \
+        libxml2-dev \
+        libxslt-dev \
+        libpcre3-dev \
+        libpq-dev \
+        pkg-config \
+        libpixman-1-dev \
+        libcairo2-dev \
+        libpango1.0-dev \
+        && \
+    apt clean
+
   veracode_sca_scan:
     build:
       runs_on:
